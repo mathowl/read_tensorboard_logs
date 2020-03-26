@@ -3,7 +3,7 @@ import os
 from tensorboard.backend.event_processing import event_accumulator
 
 
-class read_tflogs():
+class read_tblogs():
     # read scalar values from tensorboard logs
 
     def __init__(self,filepath,match=''):
